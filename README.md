@@ -2,8 +2,6 @@
 
 A **professional multi-service salon booking chat application** built with **React, Node.js, Express.js, and MongoDB**. This AI-powered chat assistant allows users to book, view, and cancel appointments for multiple salon services like Haircut, Shaving, Trimming, Facewash, Manicure, and Pedicure.
 
----
-
 ## 📌 Features
 
 - Real-time chat interface with **bot and user messages**.
@@ -24,9 +22,7 @@ A **professional multi-service salon booking chat application** built with **Rea
 - **Communication**: REST API
 - **Other**: Nodemon (for development), Fetch API
 
----
-
-## 📁 Project Structure
+📁 Project Structure
 
 salon-booking-chat/
 ├─ backend/
@@ -54,9 +50,9 @@ salon-booking-chat/
 
 
 
-## 🚀 Installation
+🚀 Installation
 
-### 1. Clone the repository
+ 1. Clone the repository
 
 
 git clone https://github.com/<your-username>/salon-booking-chat.git
@@ -111,22 +107,28 @@ cancel <time>
 Example:
 cancel 09:30
 
+
+
+
 **🎨 UI / UX**
-Responsive chat widget with avatars.
+-Responsive chat widget with avatars.
 
-Colored quick-replies for each service.
+-Colored quick-replies for each service.
 
-Smooth hover and focus effects.
+-Smooth hover and focus effects.
 
-Typing indicator for bot responses.
+-Typing indicator for bot responses.
+
+
+
 **
 🔧 Future Improvements**
-Add user authentication (login/signup).
+-Add user authentication (login/signup).
 
-Use real AI/NLP for better understanding user messages.
+-Use real AI/NLP for better understanding user messages.
 
-Support multiple stylists with separate schedules.
+-Support multiple stylists with separate schedules.
 
-Add notifications for upcoming appointments.
+-Add notifications for upcoming appointments.
 
-Deploy on Vercel/Heroku with MongoDB Atlas.
+-Deploy on Vercel/Heroku with MongoDB Atlas.
