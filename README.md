@@ -48,5 +48,69 @@ mongoose.connect('mongodb://localhost:27017/salon', {
 ### Start the backend server:
 
 npm run dev
-# or
+or
 node server.js
+
+Backend runs on http://localhost:4000
+
+### 3. Frontend setup
+cd frontend
+npm install
+npm start
+
+
+Frontend runs on http://localhost:3000 and communicates with backend.
+
+### 💬 Usage
+
+Open the frontend in your browser.
+
+Start chatting with the Salon Assistant.
+
+Type or select service options from quick replies.
+
+### Book an appointment:
+
+confirm <time>
+
+
+### Example:
+
+confirm 09:30
+
+
+### View booked appointments:
+
+view appointments
+
+
+### Cancel an appointment:
+
+cancel <time>
+
+
+### Example:
+
+cancel 09:30
+
+### 🎨 UI / UX
+
+Responsive chat widget with avatars.
+
+Colored quick-replies for each service.
+
+Smooth hover and focus effects.
+
+Typing indicator for bot responses.
+
+### 🔧 Future Improvements
+
+Add user authentication (login/signup).
+
+Use real AI/NLP for better understanding user messages.
+
+Support multiple stylists with separate schedules.
+
+Add notifications for upcoming appointments.
+
+Deploy on Vercel/Heroku with MongoDB Atlas.
