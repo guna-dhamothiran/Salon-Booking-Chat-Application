@@ -14,7 +14,7 @@ A **professional multi-service salon booking chat application** built with **Rea
 - **Typing indicator** for better UX.
 - **Responsive and professional UI** with avatars, shadows, and hover effects.
 
----
+
 
 ## 🛠 Tech Stack
 
@@ -50,10 +50,9 @@ salon-booking-chat/
 ├─ .gitignore
 └─ README.md
 
-yaml
-Copy code
 
----
+
+
 
 ## 🚀 Installation
 
@@ -80,7 +79,7 @@ Start the backend server:
 
 
 npm run dev
-# or
+or
 node server.js
 Backend runs on http://localhost:4000
 
@@ -112,7 +111,7 @@ cancel <time>
 Example:
 cancel 09:30
 
-🎨 UI / UX
+**🎨 UI / UX**
 Responsive chat widget with avatars.
 
 Colored quick-replies for each service.
@@ -120,8 +119,8 @@ Colored quick-replies for each service.
 Smooth hover and focus effects.
 
 Typing indicator for bot responses.
-
-🔧 Future Improvements
+**
+🔧 Future Improvements**
 Add user authentication (login/signup).
 
 Use real AI/NLP for better understanding user messages.
