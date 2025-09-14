@@ -31,12 +31,12 @@ bash
 git clone https://github.com/<your-username>/salon-booking-chat.git
 cd salon-booking-chat
 
-2. Backend setup
+### 2. Backend setup
 cd backend
 npm install
 
 
-Configure MongoDB connection in server.js:
+### Configure MongoDB connection in server.js:
 
 const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost:27017/salon', {
@@ -45,7 +45,7 @@ mongoose.connect('mongodb://localhost:27017/salon', {
 });
 
 
-Start the backend server:
+### Start the backend server:
 
 npm run dev
 # or
